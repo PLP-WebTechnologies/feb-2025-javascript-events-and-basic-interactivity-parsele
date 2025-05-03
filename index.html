@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JS Event Assignment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>🎉 Welcome to the Interactive Event Zone!</h1>
+
+  <!-- Event Buttons -->
+  <button id="magicBtn">Click Me!</button>
+  <button id="secretBtn">Double-Click Me!</button>
+
+  <!-- Image Gallery -->
+  <div id="gallery">
+    <img src="img1.jpg" alt="Gallery Image" id="galleryImg" />
+    <button id="nextImg">Next Image</button>
+  </div>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <button class="tab" data-tab="tab1">Tab 1</button>
+    <button class="tab" data-tab="tab2">Tab 2</button>
+  </div>
+  <div class="tab-content" id="tab1">Content for Tab 1</div>
+  <div class="tab-content" id="tab2" style="display:none;">Content for Tab 2</div>
+
+  <!-- Form -->
+  <form id="myForm">
+    <input type="text" id="username" placeholder="Username" required />
+    <input type="email" id="email" placeholder="Email" required />
+    <input type="password" id="password" placeholder="Password" required />
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
